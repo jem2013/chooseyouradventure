@@ -1,0 +1,7 @@
+{
+  "name": "CYA",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
