@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>7th Screen</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="light" [fullscreen]="true">
+  <h1>Shoot the Coyote</h1>
+  <p>Great way to assert your dominance! And save your beloved Smittens.</p>
+  <br>
+  <img class="image" src="https://704outdoors.tv/wp-content/uploads/2012/11/coyote.jpg">
+  <p>Alright, this game has been going on for a while now. Let's end it here. </p>
+  <ion-button color="success" (click)="goToPage('/page15')">End Here!</ion-button>
+  <ion-button (click)="goToPage('/home')">Homepage</ion-button>
+</ion-content>

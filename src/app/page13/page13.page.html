@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>6th Screen</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="primary">
+  <h1>Fix the Sprinkler</h1>
+  <p>Great choice! Everything is an investment. You will not regret making this one.</p>
+  <p>Now that you have that taken care of, you've earned some well deserved rest.</p>
+  <img src="https://cdn.vectorstock.com/i/preview-1x/58/65/male-farmer-lying-in-hammock-hanging-between-green-vector-46615865.jpg">
+  <p>Realistically you would not be able to sleep with all the animal sounds in the background and the pungent manure smell, but hypothetically speaking: you fall asleep for a couple of hours, but are suddenly awakened by a ruckus outside. You go to check and there you see your beloved Smittens getting attacked by a coyote. I think the choices here are clear...make your decision.</p>
+  <ion-button (click)="goToPage('/page11')">Say goodbye to Smittens:'(</ion-button>
+  <ion-button (click)="goToPage('/page12')">Shoot the coyote</ion-button>
+</ion-content>

@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>3rd Screen</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="tertiary" class="ion-padding">
+  <h1>Basic Jeans & T-shirt</h1>
+  <p>Like I said, can never go wrong with the basics. If you wear boots, extra points!</p>
+  <br>
+  <img src="https://png.pngtree.com/png-clipart/20201210/ourmid/pngtree-fashion-brown-cowboy-boots-clipart-png-image_2539299.jpg">
+  <p>Alright, now that you are all dressed and ready to go, you must decide if you'll start on your duties now or take the day off to rest. </p>
+  <ion-button (click)="goToPage('/page9')">Start Chores</ion-button>
+  <ion-button (click)="goToPage('/page10')">Rest</ion-button>
+</ion-content>

@@ -1,20 +1,18 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Game Homepage
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content [fullscreen]="true" color="tertiary" class="ion-padding">
+  <h1>Farming Adventure(not as lame as it sounds)</h1>
+  <p>This adventure begins with you, a visitor from the city learning the ropes about farm-life. Your decisions will be imperative to the success (or failure) of your farm. Are you ready?</p>
+  <img src="https://cdn.dribbble.com/users/2424774/screenshots/17374580/media/347758c52114766416d284607aa31adc.png?compress=1&resize=400x300&vertical=center">
+  <p>After receiving news that your rich--sorry, beloved--Uncle John died, you are found with the difficult decision of either taking over his vast farmland and inheriting his abundant wealth or staying at your lame corporate job and keeping your mediocre salary. Of course, you are devastated by his death, so I'll give you a few moments to decide. </p>
+  <ion-button (click)="goToPage('/page')">Take over the farmland</ion-button>
+  <ion-button (click)="goToPage('/page2')">Keep your current job</ion-button>
+  <!-- <ion-button (click)="">Music</ion-button> -->
 </ion-content>

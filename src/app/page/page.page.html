@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>2nd Screen</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="secondary" class="ion-padding">
+  <h1>Inherited Farm</h1>
+  <p>Congratulations! You're on your way to becoming rich...and gaining invaluable farming experience.</p>
+  <img src="https://thumbs.dreamstime.com/b/rural-farmer-bundles-money-pop-art-retro-vector-illustration-bank-loans-financial-profit-78822988.jpg">
+  <p>Now that you have the position, you need to dress the part. Please choose your desired attire:</p>
+    <ion-button (click)="goToPage('/page3')">Straw Hat and overalls - going all out w the farmer drip</ion-button>
+    <ion-button (click)="goToPage('/page4')">Jeans and a tshirt - can never go wrong with the basics</ion-button>
+    <ion-button (click)="goToPage('/page5')">Hoodie and sweats - comfort over style?</ion-button>
+  
+</ion-content>

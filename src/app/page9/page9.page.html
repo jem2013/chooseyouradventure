@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>4th Screen</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="secondary" class="ion-padding">
+  <h1>Chores</h1>
+  <p>Very hardworking, that's the only way you'll get far in this game. Let's get to work!</p>
+  <img src="https://cdn.w600.comps.canstockphoto.com/cartoon-grumpy-butcher-illustration_csp44372523.jpg">
+  <p>Okay now, let's start at the cow pen. Oh no! I forgot to tell you. This morning the butcher called; he needs a heifer urgently. You must decide what to do with your most recently purchased Angus heifer. You can sell her to the butcher for more money than she's actually worth or save her. The choice is yours. </p>
+  <ion-button (click)="goToPage('/page6')">Butcher the Cow</ion-button>
+  <ion-button (click)="goToPage('/page7')">Save the Heifer</ion-button>
+</ion-content>

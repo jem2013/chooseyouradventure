@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>5th Screen</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="secondary" class="ion-padding">
+  <h1>Butcher the Cow</h1>
+  <p>Acted like a true farmer. Though a little sad, that's how we get food on the table.</p>
+  <img src="https://media.istockphoto.com/id/860313266/vector/new-season-sprouting.jpg?s=612x612&w=0&k=20&c=38N346-vueTU0hAzpjDaQlwddRkcz9PERZzDNYgpwTU=">
+  <p>Moving on from the cows, let's decide on the course of action for the crops. This season has been a bit dry, and the crops are in desperate need of water. To our dismay, the primary sprinkler is down. You can choose to fix it costing thousands of dollars or pray that it rains enough to keep the crops alive.</p>
+  <ion-button (click)="goToPage('/page13')">Fix the sprinkler</ion-button>
+  <ion-button (click)="goToPage('/page14')">Let nature handle it</ion-button>
+</ion-content>
